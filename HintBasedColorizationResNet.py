@@ -254,8 +254,8 @@ model = ResNet()  # load model
 model = model.cuda()
 
 #재시작
-PATH = 'data/PSNR/HEY-PSNR-ADAM-0.000125-32-0.0001-epoch-41-losses--45.04019.pth'
-model.load_state_dict(torch.load(PATH))
+#PATH = 'data/PSNR/HEY-PSNR-ADAM-0.000125-32-0.0001-epoch-41-losses--45.04019.pth'
+#model.load_state_dict(torch.load(PATH))
 
 class AverageMeter(object):
   def __init__(self):
